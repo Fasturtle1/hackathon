@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+django-cors-headers = "==3.0"
+autopep8 = "*"
+factory-boy = "==2.12"
+freezegun = "==0.3"
+
+[packages]
+django = "==2.2"
+graphene-django = "==2.3.2"
+psycopg2 = "==2.8.3"
+pillow = "==6.1.0"
+
+[requires]
+python_version = "3.7"
