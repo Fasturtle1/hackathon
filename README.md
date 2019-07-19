@@ -1,3 +1,3 @@
 # marketplace
 
-Электронная торговая площадка. Заказчик ООО "АВЭД"
+Django + GraphQL + Apollo + Nuxt
