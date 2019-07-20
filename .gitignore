@@ -92,3 +92,5 @@ sw.*
 __pycache__/
 *.iml
 psql-data/
+# db
+db.sqlite3

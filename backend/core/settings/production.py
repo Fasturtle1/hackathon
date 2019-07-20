@@ -93,14 +93,11 @@ GRAPHENE = {
 db_host, db_port = os.environ.get('DB_HOST', 'localhost:5432').split(':')
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME', 'postgres'),
-        'USER': os.environ.get('DB_USER', 'marketplace'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'marketplace'),
-        'HOST': db_host,
-        'PORT': db_port
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 
 # Password validation
